@@ -11,20 +11,7 @@ if (titre) {
     console.log("J'ai cliqué sur le titre !");
     titre.textContent = "Titre cliqué !";
   });
-}body.dark-mode {
-  background-color: #2c3e50;
-  color: #ecf0f1;
 }
-
-body.dark-mode .container {
-  background-color: #34495e;
-  /* Ajoutez d'autres styles pour le dark mode si nécessaire */
-}
-
-body.dark-mode a {
-  color: #3498db;
-}
-// --- LOGIQUE DU DARK MODE ---
 // 1. CIBLER
 const themeButton = document.querySelector('#theme-toggle');
 
